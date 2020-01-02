@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shivam"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome To DESD!"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="30sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/name"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/age"/>
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+    </Button>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Feedback:"
+        android:visibility="invisible"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="textStart"
+        android:id="@+id/disFB">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp">
+    </Button>
+
+</LinearLayout>

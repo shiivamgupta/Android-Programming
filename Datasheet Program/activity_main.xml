@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shivam"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:textSize="40sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et1"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll No"
+        android:textSize="30sp"
+        android:id="@+id/et2"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+    </EditText>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="C"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/et3"
+        android:layout_weight="0.33"
+        android:layout_marginTop="20dp"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="C++"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.33"
+        android:id="@+id/et4"
+        android:layout_marginTop="20dp"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Java"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/et5"
+        android:layout_weight="0.33"
+        android:layout_marginTop="20dp"
+        >
+    </EditText>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Submit"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFEB3B"
+        android:layout_marginTop="20dp"
+        android:onClick="submit_first"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textSize="40sp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv1"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="%:"
+        android:textSize="40sp"
+        android:id="@+id/tv2"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+        </LinearLayout>

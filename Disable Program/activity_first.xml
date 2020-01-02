@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shivam"
+    android:orientation="vertical"
+    tools:context=".firstActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Personal Info"
+        android:textAlignment="center"
+        android:textColor="#D81B6A"
+        android:textSize="30sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="NAME: "
+        android:textColor="#b41010"
+        android:textSize="30sp"
+        android:id="@+id/name1">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Age: "
+        android:textColor="#820382"
+        android:textSize="30sp"
+        android:id="@+id/age1">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Feedback"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="right"
+        android:id="@+id/editFB">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/btnback">
+    </Button>
+
+</LinearLayout>
